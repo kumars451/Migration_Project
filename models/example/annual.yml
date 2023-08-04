@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: annual
+    description: "A starter dbt model"
+    columns:
+      - name: rev_Mean
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
