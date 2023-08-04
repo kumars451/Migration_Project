@@ -1,0 +1,1 @@
+select * from glass-stratum-391715.Telecom_Data.Personal_details
